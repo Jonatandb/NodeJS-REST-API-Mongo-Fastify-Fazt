@@ -16,7 +16,7 @@
 
 Pendientes:
 
-- Schemas
+- Schemas / Swagger (endpoints parameters)
 
 ---
 
