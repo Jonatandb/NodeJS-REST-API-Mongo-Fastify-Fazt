@@ -10,10 +10,21 @@
 
 4 - Acceder a: `http://localhost:PORT/` (_PORT_ especificado en _.env_)
 
+- Se require una conexión con Mongodb
+
+---
+
+Pendientes:
+
+- Schemas
+
 ---
 
 Sitios investigados:
 
+- https://www.fastify.io/docs/latest/Reference/Validation-and-Serialization/
+- https://github.com/fastify/fastify-swagger#readme
+- https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md
 - https://blog.devgenius.io/server-side-development-with-fastify-async-and-await-and-route-prefixes-d5704eb5206
 - https://jaywolfe.dev/rapidly-build-a-nodejs-rest-api-with-fastify-postgresql-and-swagger-documentation/
 - https://github.com/fastify/example
