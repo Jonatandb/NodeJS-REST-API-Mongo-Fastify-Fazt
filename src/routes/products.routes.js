@@ -1,10 +1,10 @@
-// const {
-//   getProductsSchema,
-//   getProductSchema,
-//   addProductSchema,
-//   updateProductSchema,
-//   deleteProductSchema,
-// } = require('../controllers/schemas/products.schemas.js')
+const {
+  getProductsSchema,
+  getProductSchema,
+  addProductSchema,
+  updateProductSchema,
+  deleteProductSchema,
+} = require('../controllers/schemas/products.schemas.js')
 
 const {
   getProducts,
