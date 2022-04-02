@@ -1,0 +1,24 @@
+GET http://localhost:3000/api/products/6247ad37c6740b7da9364dc8
+
+
+###
+POST http://localhost:3000/api/products
+content-type : application/json
+
+{
+  "name": "test",
+  "data": "test"
+}
+
+
+###
+PUT http://localhost:3000/api/products/6247acc49eb6fc39dadcc731
+content-type : application/json
+
+{
+  "name": "test",
+  "data": "test"
+}
+
+###
+DELETE http://localhost:3000/api/products/6247ad12c6740b7da9364dc5

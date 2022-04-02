@@ -1,0 +1,26 @@
+@PORT = {{$dotenv PORT}}
+@api = http://localhost:{{PORT}}/api/products
+
+GET {{api}}
+###
+GET {{api}}/62460b7eca50b83a58c0a236
+###
+POST {{api}}
+content-type: application/json
+
+{
+    "title": "Product 2",
+    "price": 10.00,
+    "image": "http://www.example.com/image.jpg",
+    "decription": "This is a product",
+    "quantity": 10
+}
+###
+DELETE {{api}}/624648b2842ea61892af3640
+###
+PUT {{api}}/62460b8a258f6c80cac03ba6
+content-type: application/json
+
+  {
+    "title": "Producto 1"
+  }
